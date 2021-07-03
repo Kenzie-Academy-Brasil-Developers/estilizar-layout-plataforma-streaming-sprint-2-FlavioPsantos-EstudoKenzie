@@ -14,25 +14,157 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** PÁGINA INICIAL
 */
 
+
 /* VARIÁVEIS */
-:root{
-  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+    overflow: hidden;
 }
 
-/*BODY*/
-	body{
+:root {
+    --cor-Fundo: #00002E;
+    --fonte-padrao: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --cor-texto: white;
+}
 
-	}
+
+/*BODY*/
+
+body {
+    background-color: var(--cor-Fundo);
+    font-family: var(--fonte-padrao);
+}
+
 
 /*TOPO*/
-	header.topo{
-		
-	}
+
+.topo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.topo img {
+    width: 70%;
+}
+
 
 /*RODAPÉ*/
-	
+
+.footer-pg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 /*PÁGINA INICIAL*/
-	div.pg-home{
-		
-	}
+
+
+/*.usuarios {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+*/
+
+.usuarios figure img {
+    width: 186px;
+    margin: 3px;
+}
+
+.usuarios figure img:hover {
+    border: 1px solid whitesmoke;
+}
+
+.perfil {
+    margin: 30px;
+    opacity: 80%;
+}
+
+.tituloSessao {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 100px;
+}
+
+.pg-home {
+    margin: 0 auto;
+}
+
+.conteinerTotal {
+    display: flex;
+    justify-content: center;
+}
+
+.conteinerLista {
+    width: 858px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.addPerfil figure img:hover {
+    border: 2px solid whitesmoke;
+}
+
+.addPerfil {
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    width: 186px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+}
+
+.addPerfil figure {
+    width: 186px;
+    height: 186px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-pg button {
+    padding: 20px;
+    background-color: var(--cor-Fundo);
+    color: whitesmoke;
+    border: 2px solid white;
+    margin: auto;
+    font-size: 20px;
+}
+
+.footer-pg button:hover {
+    border: 4px solid white;
+}
+
+@media (max-width: 600px) {
+    .topo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .topo figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

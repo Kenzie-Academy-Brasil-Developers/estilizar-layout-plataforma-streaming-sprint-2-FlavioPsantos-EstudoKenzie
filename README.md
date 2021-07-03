@@ -28,7 +28,9 @@ Você pode utilizar uma ferramenta **Device mode** disponível em seu navegador 
 
 ### Como deve ficar:
 
-<img alt="Layout" src="https://files-kenzie-academy-brasil.s3.amazonaws.com/q1/sprint2/KenzieFlix.gif" width="100%">
+<img alt="Layout" src="https://files-kusuarios h3:hover {
+    color: black;
+}enzie-academy-brasil.s3.amazonaws.com/q1/sprint2/KenzieFlix.gif" width="100%">
 
 ## _Dica_
 
